@@ -6,6 +6,9 @@ body {
     margin: 0;
     padding: 100px 0px 0px 0px;
     min-width: 960px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 body > header {
@@ -79,6 +82,7 @@ nav ul a:hover, .aktivni a {
 
 .no-underline {
     text-decoration: none;
+    color: inherit;
 }
 
 
@@ -174,26 +178,18 @@ html,body {
     padding: 0;
 }
 
-/*footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%
-    background: url('obrazky/design.png') no-repeat center center;
-    background-size: cover;
-    background-position: center;
-    transform-origin: top left;
-} */
-
 footer {
     display: flex;
     align-items: center;
     text-align: center;
     background-image: url('obrazky/wallb.png');
+    background-repeat: no-repeat;
     background-size: 2000px;
     background-position: center;
     height: 25vh;
     width: 100%;
     justify-content: center;
+    margin-top: auto;
 }
 
 #dovednosti td {
