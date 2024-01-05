@@ -1,73 +1,123 @@
 <!DOCTYPE html>
 <html lang="cs-cz">
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Ivanov" />
-    <meta name="description" content="Osobní portfolio programátora Ivanov." />
-    <meta name="keywords" content="portfolio, programátor, Ivanov" />
-    <link rel="shortcut icon" href="obrazky/award.ico" />
-    <link rel="stylesheet" href="styl.css" type="text/css" />
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Ivanov" />
+  <meta name="description" content="Osobní portfolio programátora Ivanov." />
+  <meta name="keywords" content="portfolio, programátor, Ivanov" />
+  <link rel="shortcut icon" href="obrazky/award.ico" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styl.css" type="text/css" />
+  <title>Plamen Ivanov dovednosti</title>
 </head>
 <body>
-    <header>
-        <div id="logo">
-            <h1><a href="index.html" class="no-underline">Plamen<span>Ivanov</span></a></h1>
-            <small>Junior Programmer</small>
+<header>
+  <div id="logo">
+    <h1><a href="index.html" class="no-underline">Plamen<span>Ivanov</span></a></h1>
+    <small>Junior Programmer</small>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">O mně</a></li>
+      <li><a href="pracovnizkusenosti.html">pracovní zkušenosti</a></li>
+      <li class="aktivni"><a href="dovednosti.html">dovednosti</a></li>
+      <li><a class="kontakt-tlacitko" href="kontakt.html">kontakt</a></li>
+      <div class="dropdown">
+        <span>cz-en</span>
+        <div class="dropdown-content">
+          <p><a href="pracovnizkusenosti.html"><img src="obrazky/cz.png" alt="CZ flag">  CZ</a></p>
+          <p><a href="pracovnizkusenosti-en.html"><img src="obrazky/en.png" alt="CZ flag">  EN</a></p>
         </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">O mně</a></li>
-                    <li class="aktivni"><a href="dovednosti.html">Dovednosti</a></li>
-                    <li><a href="reference.html">Reference</a></li>
-                    <li><a class="kontakt-tlacitko" href="kontakt.html">kontakt</a></li>
-                </ul>
-            </nav>
-    </header>
+      </div>
+    </ul>
+  </nav>
+</header>
 
+<article>
+  <style>
+  article {
+    margin: 5% 20% !important;
+  }
+</style>
+  <style>
+  section p {
+    line-height: 1em !important;
+    margin-bottom: 1em !important;
+  }
+</style>
 
-    <article>
-    <h1>Dovednosti</h1>
+  <section>
+    <div class="row">
+      <div class="col-6">
+        <p><strong>Jazykové dovednosti</strong></p>
+        <p><img src="obrazky/en.png" alt="EN flag"> English: Advanced(C1) <div class="skill-bar">
+        <div class="skill-text bar-90">
+        </div>
+      </div>
+        </p>
+        <p><img src="obrazky/esp.png" alt="ESP flag">  Spanish: Advanced(C1) <div class="skill-bar">
+        <div class="skill-text bar-90">
+        </div>
+      </div>
+        </p>
+        <p><img src="obrazky/cz.png" alt="CZ flag">  Czech: Advanced(C1) <div class="skill-bar">
+        <div class="skill-text bar-90">
+        </div>
+      </div>
+        </p>
+        </p>
+        <p><img src="obrazky/ger.png" alt="GER flag">  German: Intermediate(B1) <div class="skill-bar">
+        <div class="skill-text bar-60">
+        </div>
+      </div>
+        </p>
+        </p>
+        <p><img src="obrazky/bg.png" alt="BG flag">  Bulgarian: Native <div class="skill-bar">
+        <div class="skill-text bar-100">
+        </div>
+      </div>
+        </p>
+      </div>
+      <div class="col-6">
+        <p><strong>Programovací dovednosti</strong></p>
+        <p><img src="obrazky/java.png" alt="java logo"> JAVA <div class="skill-bar">
+        <div class="skill-text bar-90">
+        </div>
+      </div>
+        </p>
+        <p><img src="obrazky/java.png" alt="java logo"> JAVA / OOP <div class="skill-bar">
+        <div class="skill-text bar-80">
+        </div>
+      </div>
+        </p>
+        </p>
+        <p><img src="obrazky/java.png" alt="java logo"> JAVA / Collection Framework <div class="skill-bar">
+        <div class="skill-text bar-80">
+        </div>
+      </div>
+        </p>
+        </p>
+        <p><img src="obrazky/js.png" alt="js logo"> JavaScript <div class="skill-bar">
+        <div class="skill-text bar-80">
+        </div>
+      </div>
+        </p>
+        </p>
+        <p><img src="obrazky/sql.png" alt="sql logo"> SQL <div class="skill-bar">
+        <div class="skill-text bar-80">
+        </div>
+      </div>
+        </p>
+      </div>
+    </div>
 
-    <section>
-        <table id="dovednosti">
-            <tr class="centrovany">
-    <table>
-        <tr>
-            <td>
-                <img src="obrazky/html.png" alt="HTML" />
-            </td>
-            <td>
-                <img src="obrazky/java.png" alt="JAVA" >
-            </td>
-            <td>
-                <img src="obrazky/pascal.png" alt="Pascal" >
-            </td>
+  </section>
+</article>
 
-        </tr>
-
-        <tr>
-            <td>
-                <h2>HTML</h2>
-                <p> S HTML začínám a umím vytvořit jednoduché webové stránky, jako jsou tyto. </p>
-            </td>
-            
-            <td>
-                <h2>Java</h2>
-                <p> Javu se učím z tutoriálů na ITnetwork.cz, dokáži tvořit jednoduché konzolové i okenní aplikace.
-            </td>
-            
-            <td>
-                <h2>Pascal</h2>
-                <p> Pascal nás učí ve škole, ale raději se učím moderní jazyky z ITnetwork.
-            </td>
-        </tr>
-    </table>
-    </section>
-    </article>
-    <footer>
-        &copy;Ivanov 2024 <a></a>
-    </footer>
+<footer>
+  &copy;Ivanov 2024 <a></a>
+</footer>
 
 </body>
 </html>
+

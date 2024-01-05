@@ -122,7 +122,7 @@ article header {
 }
 
 article {
-    margin: 0 auto;
+    margin: auto;
     max-width: 960px;
     padding: 50px 50px 10px 50px;
     text-align: left;
@@ -130,7 +130,7 @@ article {
 
 article h1 {
     margin: 50px 50px 50px 0px;
-    font-size: 2.3em;
+    font-size: 2em;
     font-weight: bold;
     text-transform: uppercase;
     text-align: left;
@@ -172,6 +172,10 @@ article section a {
     border: 0;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 html,body {
     height: 100%;
     margin: 0;
@@ -192,7 +196,58 @@ footer {
     margin-top: auto;
 }
 
-#dovednosti td {
-    width: 33%;
-    padding: 10px;
-    vertical-align: top;}
+.card-img-top {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.card {
+    text-align: justify;
+}
+
+.row {
+    align-items: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.text-justify {
+text: justify;
+}
+
+
+* {box-sizing:border-box}
+
+.skill-bar {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skill-text {
+  text-align: right; /* Right-align text */
+  padding-top: 3px; /* Add top padding */
+  padding-bottom: 3px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+.bar-100 {width: 100%; background-color: #808080;}
+.bar-90 {width: 90%; background-color: #808080;}
+.bar-80 {width: 80%; background-color: #808080;}
+.bar-60 {width: 60%; background-color: #808080;}
